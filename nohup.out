@@ -1,0 +1,7 @@
+BUG: tempfile.c:292: get_tempfile_path() called for inactive object
+sh: line 1: 3277499 Aborted                 (core dumped) git add transformers
+[main b453a21] add transformers
+ 1 file changed, 1 deletion(-)
+ delete mode 160000 transformers
+To https://github.com/HillZhang1999/ICD.git
+   293516c..b453a21  main -> main
