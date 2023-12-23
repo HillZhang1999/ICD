@@ -23,13 +23,17 @@
 </h4>
 </div>
 
-<img width="400" alt="image" src="./pics/method.png">
+<img width="300" alt="image" src="./pics/method.png">
 
 </div>
 
 ## Introduction
 
 Despite their impressive capabilities, large language models (LLMs) have been observed to generate responses that include inaccurate or fabricated information, a phenomenon commonly known as ``hallucination''. In this work, we propose a simple Induce-then-Contrast Decoding (ICD) strategy to mitigate this issue. We first construct a factually weak LLM by inducing hallucinations from the original LLMs. Then, we penalize these induced hallucinations during decoding to enhance the factuality of the generated content. Concretely, we determine the final next-token predictions by amplifying the predictions from the original model and downplaying the induced untruthful predictions via contrastive decoding. Experimental results on both discrimination-based and generation-based hallucination evaluation benchmarks, such as TruthfulQA and FActScore, demonstrate that our proposed ICD methods can effectively enhance the factuality of LLMs across various model sizes and families. For example, when equipped with our approach, Llama2-7B-Chat and Mistral-7B-Instruct now can achieve performance comparable to ChatGPT and GPT4 on TruthfulQA, respectively.
+
+On TruthfulQA, our ICD approach significantly improves the truthfulness of Llama2-7B-Chat (+8 MC1 score) and Mistral-7B-Instruct (+20 MC1 score). With these improvements, the enhanced Llama2-7B-Chat and Mistral-7B-Instruct now match the performance levels of ChatGPT and GPT4, respectively.
+
+<img width="400" alt="image" src="./pics/performance.png">
 
 If you are interested in our work, please cite:
 ```bib
