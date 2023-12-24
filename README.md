@@ -3,14 +3,13 @@
 # Improving Factuality of Large Language Models via Contrasting Intentionally Induced Hallucinations
 
 <div>
-  <a href='https://hillzhang1999.github.io/' target='_blank'><b>Yue Zhang</b></a><sup>1,2</sup>&emsp;
-  <a href='https://nealcly.github.io/' target='_blank'>Leyang Cui</b></a><sup>2*</sup>&emsp;
+  <a href='https://hillzhang1999.github.io/' target='_blank'><b>Yue Zhang</b></a><sup>1</sup>&emsp;
+  <a href='https://nealcly.github.io/' target='_blank'>Leyang Cui</b></a><sup>2</sup>&emsp;
   <a href='https://scholar.google.com/citations?user=aSJcgQMAAAAJ&hl=en/' target='_blank'>Wei Bi</b></a><sup>2</sup>&emsp;
   <a href='https://scholar.google.com/citations?user=Lg31AKMAAAAJ&hl=en/' target='_blank'>Shuming Shi</b></a><sup>2</sup>&emsp;
 </div>
 <div><sup>1</sup>Soochow University, Suzhou, China</div>
 <div><sup>2</sup>Tencent AI Lab</div>
-<div><sup>*</sup>Corresponding Author</div>
 
 <div>
 <h4>
@@ -38,7 +37,7 @@ On TruthfulQA, our ICD approach significantly improves the truthfulness of Llama
 If you are interested in our work, please cite:
 ```bib
 @article{zhang-etal-2023-ICD,
-  title     = {Non-autoregressive Text Editing with Copy-aware Latent Alignments},
+  title     = {Improving Factuality of Large Language Models via Contrasting Intentionally Induced Hallucinations},
   author    = {Zhang, Yue  and
                Cui, Leyang  and
                Wei, Bi and
