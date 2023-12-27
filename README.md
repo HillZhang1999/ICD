@@ -1,6 +1,6 @@
 <div align="center">
 
-# Improving Factuality of Large Language Models via Contrasting Intentionally Induced Hallucinations
+# Alleviating Hallucinations of Large Language Models through Induced Hallucinations
 
 <div>
   <a href='https://hillzhang1999.github.io/' target='_blank'><b>Yue Zhang</b></a><sup>1</sup>&emsp;
@@ -37,12 +37,12 @@ On TruthfulQA, our ICD approach significantly improves the truthfulness of Llama
 If you are interested in our work, please cite:
 ```bib
 @article{zhang-etal-2023-ICD,
-  title     = {Improving Factuality of Large Language Models via Contrasting Intentionally Induced Hallucinations},
+  title     = {Alleviating Hallucinations of Large Language Models through Induced Hallucinations},
   author    = {Zhang, Yue  and
                Cui, Leyang  and
                Wei, Bi and
                Shuming Shi},
-  journal   = {arXiv preprint arXiv:TBD},
+  journal   = {arXiv preprint arXiv:2312.15710},
 }
 ```
 
