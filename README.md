@@ -73,6 +73,14 @@ sh factscore.sh
 ```
 For evaluation on Factscore, please kindly refer to their [repo](https://github.com/shmsw25/FActScore/tree/main).
 
+We also provide some hallucinated models on the huggingface model hub for fast trial:
+| Model | Link |
+| :------- | :---------: |
+| **HillZhang/untruthful_llama2_7b** | [HuggingFace](https://huggingface.co/HillZhang/untruthful_llama2_7b)|
+| **HillZhang/untruthful_baichuan2_7b** | [HuggingFace](https://huggingface.co/HillZhang/untruthful_baichuan2_7b)|
+| **HillZhang/untruthful_mistral_7b** | [HuggingFace](https://huggingface.co/HillZhang/untruthful_mistral_7b) |
+| **HillZhang/untruthful_llama2_7b_bio** | [HuggingFace](https://huggingface.co/HillZhang/untruthful_llama2_7b_bio) |
+
 ## Contact
 
 If you have any questions, please feel free to [email](mailto:hillzhang1999@qq.com) me or drop me an issue.
