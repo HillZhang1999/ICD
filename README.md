@@ -51,7 +51,7 @@ If you are interested in our work, please cite:
 You can use the following commands to install the environment for ICD:
 
 ```sh
-conda create -n icd python==3.8
+conda create -n icd python==3.10
 conda activate icd
 pip install -r requirements.txt
 cd ./transformers
