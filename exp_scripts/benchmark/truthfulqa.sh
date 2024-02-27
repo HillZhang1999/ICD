@@ -13,7 +13,7 @@ amateur_model_name="HillZhang/untruthful_llama2_7b"
 # amateur_model_name="HillZhang/untruthful_baichuan2_7b"
 
 # ### For experiments using Mistral
-# model_name="mistralai/Mistral-7B-v0.1"
+# model_name="mistralai/Mistral-7B-Instruct-v0.1"
 # amateur_model_name="HillZhang/untruthful_mistral_7b"
 
 ### Baseline
